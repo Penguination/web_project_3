@@ -1,0 +1,9 @@
+@import url('./__lang-link/header__lang-link.css');
+
+.header{
+position: absolute;
+width: 984px;
+height: 44px;
+left: 148px;
+top: 34px;
+}
