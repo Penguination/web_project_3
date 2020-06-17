@@ -1,0 +1,18 @@
+.footer__copyright {
+  position: absolute;
+  width: 168px;
+  height: 16px;
+  left: 1064px;
+  top: 7034px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 114%;
+  /* identical to box height, or 114% */
+
+  text-align: right;
+
+  color: #FFFFFF;
+}
