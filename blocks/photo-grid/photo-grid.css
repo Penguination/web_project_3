@@ -1,9 +1,6 @@
 @import url('./__item/photo-grid__item.css');
 
-.photo-grid{
-/* position: absolute;
+.photo-grid {
 width: 1184px;
 height: 671px;
-left: 48px;
-top: 1893px; */
 }

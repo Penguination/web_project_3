@@ -1,9 +1,7 @@
-.lead__subtitle{
-  /* position: absolute;
+.lead__subtitle {
   width: 620px;
   height: 72px;
-  left: 330px;
-  top: 368px; */
+  margin: auto 182px;
 
   font-family: Inter;
   font-style: normal;
