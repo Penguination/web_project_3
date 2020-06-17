@@ -1,13 +1,15 @@
 .intro__subtitle{
-position: absolute;
+/* position: absolute;
 width: 690px;
 height: 68px;
 left: 148px;
-top: 1389px;
+top: 1389px; */
+
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 142%;
+
 color: #FFFFFF;
 }

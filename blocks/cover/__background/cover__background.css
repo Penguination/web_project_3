@@ -1,10 +1,10 @@
 .cover__background {
 
-position: absolute;
+/* position: absolute;
 width: 1184px;
 height: 740px;
 left: 48px;
-top: 6200px;
+top: 6200px; */
 
 background: url('../../../images/__background.svg');
 }

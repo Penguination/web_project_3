@@ -1,13 +1,15 @@
 .intro__list{
-position: absolute;
+/* position: absolute;
 width: 690px;
 height: 72px;
 left: 148px;
-top: 1729px;
+top: 1729px; */
+
 font-family: Inter;
 font-style: normal;
 font-weight: bold;
 font-size: 12px;
 line-height: 150%;
+
 color: #FFFFFF;
 }
