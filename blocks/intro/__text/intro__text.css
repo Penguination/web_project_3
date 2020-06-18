@@ -1,14 +1,12 @@
 .intro__text{
-/* position: absolute;
-width: 690px;
-height: 208px;
-left: 148px;
-top: 1489px; */
+  width: 690px;
+  height: 208px;
+  margin: auto;
 
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 162%;
-color: #FFFFFF;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 162%;
+  color: #FFFFFF;
 }
