@@ -3,12 +3,19 @@
 @import url('./__website/place__website.css');
 @import url('./__website-url-heading/place__website-url-heading.css');
 @import url('./__website-link/place__website-link.css');
+@import url('./__paragraphs/place__paragraphs.css');
 @import url('./__paragraph/place__paragraph.css');
 
 .place{
-/* position: absolute;
-width: 984px;
-height: 584px;
-left: 148px;
-top: 2656px; */
+  width: 100%;
+  border: olive 2px solid;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  row-gap: 48px;
+  column-gap: 40px;
+  margin-top: 80px;
 }

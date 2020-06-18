@@ -7,12 +7,14 @@
   <link rel="stylesheet" type="text/css" href="./vendor/normalize.css">
   <link rel="stylesheet" type="text/css" href="./pages/index.css">
 </head>
-<body class="page">
+<body>
+<div class="page">
 <header class="header">
   <img class="logo" src="images/logo.svg">
   <a href="#" class="header__lang-link">En</a>
   <a href="#" class="header__lang-link">Es</a>
 </header>
+<main>
 <section class="lead">
   <h1 class="lead__title">From Portland to Portland</h1>
   <h2 class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</h2>
@@ -51,10 +53,9 @@
   <img class="photo-grid__item" src="images/grid/11.svg" alt="Grid picture 11">
   <img class="photo-grid__item" src="images/grid/12.svg" alt="Grid picture 12">
 </section>
-<!-- <section class="places">
+<section class="places">
   <div class="place">
     <h2 class="place__title">Maine</h2>
-    <img class="place__image" src="./images/maine.svg" alt="Maine">
     <div class="place__website">
       <p class="place__website-url-heading">URL</p>
       <a
@@ -65,26 +66,29 @@
       global.llbean.com
     </a>
     </div>
-    <p class="place__paragraph">
-      Still, as sparsely populated as it was in the 1600s,
-      this is an extraordinary and highly underrated state
-      full of rich history and majestic natural beauty.
-      Maine is the main state you want to be sure not to miss.
-      As your journey is going to be a long one,
-      you had best be prepared for an arduous trek.
-    </p>
-    <p class="place__paragraph">
+    <img class="place__image" src="./images/maine.svg" alt="Maine">
+    <div class="place__paragraphs">
+      <p class="place__paragraph">
+        Still, as sparsely populated as it was in the 1600s,
+        this is an extraordinary and highly underrated state
+        full of rich history and majestic natural beauty.
+        Maine is the main state you want to be sure not to miss.
+        As your journey is going to be a long one,
+        you had best be prepared for an arduous trek.
+      </p>
+      <p class="place__paragraph">
       Thankfully, not only is Maine home to the very first European
       settlers on US territory in the era of Vikings,
       but is also home to L.L. Bean, which is a great company
       to grab a super sturdy backpack from for your 3-month expedition.
-    </p>
-    <p class="place__paragraph">
-      Average cost: $80-100.
-    </p>
-    <div class="place">
+      </p>
+      <p class="place__paragraph">
+        Average cost: $80-100.
+      </p>
+    </div>
+  </div>
+  <div class="place">
       <h2 class="place__title">New Hampshire</h2>
-      <img class="place__image" src="./images/new-hampshire.svg" alt="Maine">
       <div class="place__website">
         <p class="place__website-url-heading">URL</p>
         <a class="place__website-link"
@@ -93,6 +97,8 @@
         >
       timberland.com</a>
       </div>
+      <img class="place__image" src="./images/new-hampshire.svg" alt="New Hampshire">
+    <div class="place__paragraphs">
       <p class="place__paragraph">
         There's no better place to lose yourself in nature
         than in springtime New Hampshire. As serene and beautiful
@@ -115,15 +121,17 @@
       <p class="place__paragraph">
         Average cost: $100-150.
       </p>
+      </div>
     </div>
-    <div class="place">
+  <div class="place">
       <h2 class="place__title">New York</h2>
-      <img class="place__image" src="./images/newyork.svg" alt="Maine">
       <div class="place__website">
         <p class="place__website-url-heading">URL</p>
         <a class="place__website-link"
         href="https://www.ge.com/about-us">ge.com</a>
       </div>
+      <img class="place__image" src="./images/newyork.svg" alt="New York">
+    <div class="place__paragraphs">
       <p class="place__paragraph">
         Not only famous for “The Big Apple,” the state of NY
         also has several other reasons for going down in history.
@@ -139,15 +147,17 @@
         roads on your adventure. Such a light from GE will set you
         back about $10-20.
       </p>
+      </div>
     </div>
-    <div class="place">
+  <div class="place">
       <h2 class="place__title">Erie, PA</h2>
-      <img class="place__image" src="./images/erie.svg" alt="Maine">
       <div class="place__website">
         <p class="place__website-url-heading">URL</p>
         <a class="place__website-link"
         href="https://www.fws.gov/refuge/erie">www.fws.gov</a>
       </div>
+      <img class="place__image" src="./images/erie.svg" alt="Maine">
+      <div class="place__paragraphs">
       <p class="place__paragraph">
         Erie, Pennsylvania, not to be confused with the word “eerie,”
         although it can be from time to time, is another town worth
@@ -168,14 +178,16 @@
       <p class="place__paragraph">
         The current cost of a Hershey's Chocolate bar: about 60¢.
       </p>
+      </div>
     </div>
-    <div class="place">
+  <div class="place">
       <h2 class="place__title">Ohio</h2>
-      <img class="place__image" src="./images/ohio.svg" alt="Maine">
       <div class="place__website">
         <p class="place__website-url-heading">URL</p>
         <a class="place__website-link" href="http://www.cedarpoint.com">cedarpoint.com</a>
       </div>
+      <img class="place__image" src="./images/ohio.svg" alt="Maine">
+      <div class="place__paragraphs">
       <p class="place__paragraph">
         From the college capital of Columbus to the clean coastline of Cleveland, Ohio
         is a truly hidden gem. Earthquakes are surprisingly common in this particular
@@ -190,8 +202,9 @@
       <p class="place__paragraph">
         The cost of a daily ticket: about $100.
       </p>
+      </div>
     </div>
-</section> -->
+</section>
 <!-- <section class="cover">
   <h2 class="cover__title">Historic Route 66</h2>
   <p class="cover__subtitle">
@@ -202,11 +215,13 @@
   <div class="cover__overlay"></div>
   <div class="cover__background"></div>
 </section> -->
+</main>
 <!-- <footer class="footer">
   <a class="footer__link" href="https://yandex.com/maps">Maps</a>
   <a class="footer__link" href="https://yandex.com/weather/moscow">Weather</a>
   <a class="footer__link" href="https://www.any.do/">Calendar</a>
   <p class="footer__copyright">© 2020. Nick Bathurst</p>
 </footer> -->
+</div>
 </body>
 </html>

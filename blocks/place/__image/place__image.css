@@ -1,7 +1,4 @@
 .place__image{
-/* position: absolute;
-width: 460px;
-height: 460px;
-left: 148px;
-top: 3520px; */
+  width: 100%;
+  margin: 0;
 }
