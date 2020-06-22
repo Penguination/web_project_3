@@ -1,7 +1,6 @@
 .place__website {
 /* max-width: 456px; */
-width: 100%;
+/* width: 100%; */
 position: relative;
-right: 0;
-top: 0;
+;
 }

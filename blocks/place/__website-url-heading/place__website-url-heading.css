@@ -1,6 +1,8 @@
 .place__website-url-heading {
-  width: 456px;
-  height: 12px;
+  /* width: 456px;
+  height: 12px; */
+  position: relative;
+  top: 12px;
 
   font-family: Inter;
   font-style: normal;

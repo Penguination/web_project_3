@@ -3,7 +3,6 @@
 .header{
 display: flex;
 max-width: 984px;
-height: 44px;
-margin: 34px 148px;
+margin: 0 auto;
 justify-content: space-between;
 }

@@ -1,21 +1,17 @@
 .cover__title {
-  /* __title */
+  position: absolute;
+  width: 656px;
+  left: 264px;
+  top: 230px;
 
-/* position: absolute;
-width: 656px;
-height: 76px;
-left: 312px;
-top: 6483px; */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
 
-font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 106%;
-/* identical to box height, or 106% */
-text-align: center;
-
-color: #FFFFFF;
+  color: #FFFFFF;
 
 
 }

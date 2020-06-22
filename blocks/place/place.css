@@ -5,17 +5,17 @@
 @import url('./__website-link/place__website-link.css');
 @import url('./__paragraphs/place__paragraphs.css');
 @import url('./__paragraph/place__paragraph.css');
+@import url('./__paragraph-2/place__paragraph-2.css');
 
 .place{
   width: 100%;
-  border: olive 2px solid;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* position: relative; */
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
   row-gap: 48px;
   column-gap: 40px;
   margin-top: 80px;
+}
+
+.place:first-child{
+  margin-top:0;
 }
