@@ -2,5 +2,5 @@
   width: 984px;
   height: 615px;
   margin: 64px auto 8px;
-  background: url('../../../images/lead-img.svg');
+  background: url('../../../images/lead-img.svg') no-repeat;
 }
