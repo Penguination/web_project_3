@@ -4,12 +4,7 @@
 @import url('./__overlay/cover__overlay.css');
 
 .cover{
-/* position: absolute;
-
-height: 740px;
-left: 48px;
-top: 6200px; */
-position: relative;
-width: 1184px;
-margin: 92px auto;
+  position: relative;
+  width: 1184px;
+  margin: 92px auto;
 }

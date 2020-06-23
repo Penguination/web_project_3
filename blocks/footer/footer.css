@@ -2,9 +2,8 @@
 @import url('./__link/footer__link.css');
 
 .footer {
-/* position: absolute;
-width: 1184px;
-height: 18px;
-left: 48px;
-top: 7032px; */
+  margin: 0 48px 24px;
+  display: flex;
+  justify-content: space-between;
 }
+

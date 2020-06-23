@@ -1,20 +1,18 @@
 .footer__link {
-/* __link */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 112%;
+  color: #FFFFFF;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+}
 
-/* position: absolute;
-width: 42px;
-height: 18px;
-left: 48px;
-top: 7032px; */
+.footer__link:nth-child(2) {
+  margin: 0 18px;
+}
 
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 112%;
-/* identical to box height, or 112% */
-
-color: #FFFFFF;
-
-
+.footer__link:hover {
+  opacity: 0.8;
 }
