@@ -4,8 +4,6 @@
 @import url('./__subtitle/lead__subtitle.css');
 
 .lead{
-  /* width: 984px; */
-  /* height: 1005px; */
   margin: 56px 148px;
   max-width: 100%;
 }
