@@ -1,8 +1,5 @@
 .cover__title {
-  position: absolute;
-  width: 656px;
-  left: 264px;
-  top: 230px;
+  max-width: 656px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -11,4 +8,5 @@
   text-align: center;
   color: #FFFFFF;
   z-index: 1;
+  align-self: center;
 }
