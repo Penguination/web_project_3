@@ -1,5 +1,5 @@
 .cover__background {
-  width: 1184px;
+  max-width: 1184px;
   height: 740px;
   background-repeat: no-repeat;
   background-image: url('../../../images/__background.svg');
